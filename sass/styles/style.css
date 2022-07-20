@@ -10922,3 +10922,56 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 125%;
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+nav li {
+  font-size: 1.4rem;
+}
+
+h1, .h1 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 3rem;
+  font-weight: 550;
+  color: #555B4D;
+}
+
+.banner li {
+  font-size: 1.2rem;
+}
+
+h2, .h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
