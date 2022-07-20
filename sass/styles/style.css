@@ -10938,10 +10938,6 @@ body {
   margin: 0 auto;
 }
 
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -10974,4 +10970,32 @@ h2, .h2 {
   text-align: center;
   font-weight: 400;
   font-size: 1.7rem;
+}
+
+.show {
+  position: absolute;
+  right: 0;
+}
+
+.navbar-collapse {
+  width: 50%;
+}
+
+.shoppingCart {
+  width: 1em;
+  height: 1em;
+}
+
+.shoppingCartContainer {
+  width: calc(50% - 90px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

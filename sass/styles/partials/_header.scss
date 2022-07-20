@@ -1,0 +1,17 @@
+// Nav Mobile Menu
+.show {
+    position: absolute;
+    right: 0;
+}
+.navbar-collapse {
+    width: calc(100% / 2);
+}
+.shoppingCart {
+    width: 1em;
+    height: 1em;
+}
+.shoppingCartContainer {
+    width: calc(100% / 2 - 90px);
+    display: flex;
+    justify-content: flex-end;
+}
