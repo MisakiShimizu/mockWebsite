@@ -1,14 +1,17 @@
 // Nav Mobile Menu
 .show {
     position: absolute;
-    right: 0;
+    left: 0;
+    top: 140px;
+    background-color: rgba($first, 0.8);
+    padding-left: 30px;
 }
 .navbar-collapse {
     width: calc(100% / 2);
 }
 .shoppingCart {
-    width: 1em;
-    height: 1em;
+    width: 1.5em;
+    height: 1.5em;
 }
 .shoppingCartContainer {
     width: calc(100% / 2 - 90px);

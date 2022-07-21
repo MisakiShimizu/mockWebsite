@@ -10930,6 +10930,7 @@ textarea.form-control-lg {
 body {
   font-size: 125%;
   line-height: 1.6;
+  background-color: #ccc;
 }
 
 .wrapper {
@@ -10958,7 +10959,7 @@ h1, .h1 {
   font-family: "Bodoni Moda", serif;
   font-size: 3rem;
   font-weight: 550;
-  color: #555B4D;
+  color: #3E4238;
 }
 
 .banner li {
@@ -10974,7 +10975,10 @@ h2, .h2 {
 
 .show {
   position: absolute;
-  right: 0;
+  left: 0;
+  top: 140px;
+  background-color: rgba(221, 190, 169, 0.8);
+  padding-left: 30px;
 }
 
 .navbar-collapse {
@@ -10982,8 +10986,8 @@ h2, .h2 {
 }
 
 .shoppingCart {
-  width: 1em;
-  height: 1em;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .shoppingCartContainer {
@@ -10992,10 +10996,32 @@ h2, .h2 {
   justify-content: flex-end;
 }
 
+.mainImgContainer {
+  min-width: 310px;
+  margin: 30px auto;
+  width: 90%;
+}
+
+.mainImg {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 30% 15%;
+     object-position: 30% 15%;
+  height: 60%;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
 @media (min-width: 768px) {
   .navbar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+  .navbar-expand-md .navbar-collapse {
+    flex-basis: max-content;
+  }
+  .navbar-collapse {
+    flex-grow: 0;
   }
 }

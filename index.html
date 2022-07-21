@@ -11,27 +11,61 @@
 
   </head>
   <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a href="#" class="navbar-brand"><h1>Parker & Co.</h1></a>
-            <div class="navContainer w-100 d-flex justify-content-between">
-                <button class="navbar-toggler position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation"> 
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="toggleMobileMenu">
-                    <ul class="navbar-nav ms-auto text-center">
-                        <li><a href="" class="nav-link">Collars, Harness & Leashes</a></li>
-                        <li><a href="" class="nav-link">Apparel</a></li>
-                        <li><a href="" class="nav-link">Toys</a></li>
-                        <li><a href="" class="nav-link">Carriers</a></li>
-                    </ul>
+    <header>
+
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a href="#" class="navbar-brand"><h1>Parker & Co.</h1></a>
+                <div class="navContainer w-100 d-flex justify-content-between">
+                    <button class="navbar-toggler position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation"> 
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                        <ul class="navbar-nav ms-auto text-left">
+                            <li><a href="" class="nav-link">Collars, Harness & Leashes</a></li>
+                            <li><a href="" class="nav-link">Apparel</a></li>
+                            <li><a href="" class="nav-link">Toys</a></li>
+                            <li><a href="" class="nav-link">Carriers</a></li>
+                        </ul>
+                    </div>
+                    <div class="shoppingCartContainer">
+                        <a href="#"><img src="/node_modules\bootstrap-icons\icons\cart.svg" alt="" class="shoppingCart"></a>
+                    </div>
                 </div>
-                <div class="shoppingCartContainer">
-                    <a href="#"><img src="/node_modules\bootstrap-icons\icons\cart.svg" alt="" class="shoppingCart"></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="mainImgContainer">
+            <img src="./assets/00100lrPORTRAIT_00100_BURST20191225112156991_COVER.jpg" alt="Toy poodle with ribbon on top of head." class="mainImg">
+        </div>
+        <section>
+            <!-- category section -->
+            <div class="container">
+                <h2>Shop by category</h2>
+                <div class="category_con">
+                    <div class="collars">
+                        <img src="./assets/camylla-battani-zSCoQkrLMOE-unsplash.jpg" alt="Dog wearing white leaather collar." class="rounded-circle w-75 h-25">
+                        <p><a href="collar">Collars, Harness & Leashes</a></p>
+                    </div>
+                    <div class="apparel">
+                        <img src="./assets/charlesdeluvio-AQRp2NH-O8k-unsplash.jpg"
+                            alt="Dog wearing a yellow beanie and grey sweater." class="rounded-circle ">
+                        <p><a href="apparel">Apparel</a></p>
+                    </div>
+                    <div class="toys">
+                        <img src="./assets/jesper-brouwers-oD8uurkrH4c-unsplash.jpg"
+                            alt="Dog holding moose stuffed animal toy." class="rounded-circle">
+                        <p><a href="toys">Toys</a></p>
+                    </div>
+                    <div class="carriers">
+                        <img src="./assets/flouffy-5n4xYIZvesQ-unsplash.jpg" alt="Dog sitting in grey car carrier." class="rounded-circle">
+                        <p><a href="carriers">Carriers</a></p>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </div>
+        </section>
+    </main>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 
