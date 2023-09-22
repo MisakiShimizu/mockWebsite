@@ -60,32 +60,9 @@ export default function Header() {
                             </ul>
                         </div>
                     </div>
-                    // {isDisplay && (
-                    //     <ul>
-                    //         <li>
-                    //             <NavLink to="">Home</NavLink>
-                    //         </li>
-                    //         <li>
-                    //             <NavLink to="">Shop By Pet</NavLink>
-                    //         </li>
-                    //         <li>
-                    //             <NavLink to="">Wear</NavLink>
-                    //         </li>
-
-                    //         <li>
-                    //             <NavLink to="">Play</NavLink>
-                    //         </li>
-                    //         <li>
-                    //             <NavLink to="">Walk</NavLink>
-                    //         </li>
-                    //         <li>
-                    //             <NavLink to="">Eat</NavLink>
-                    //         </li>
-                    //     </ul>
-                    // )}
                 )}
                 {!isMobile && (
-                    <ul>
+                    <ul className="navbar-nav d-flex justify-content-evenly">
                         <li>
                             <NavLink to="">Shop By Pet</NavLink>
                         </li>
