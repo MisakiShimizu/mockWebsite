@@ -1,5 +1,14 @@
-@use "./variables" as v;
+@use './variables' as v;
 
 html {
-  background-color: v.$background;
+    background-color: v.$background;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.line-deco {
+    width: 100%;
 }

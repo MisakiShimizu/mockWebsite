@@ -228,3 +228,34 @@ th {
 html {
   background-color: #dfdede;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.line-deco {
+  width: 100%;
+}
+
+.navbar-button {
+  border: none;
+  font-size: 2rem;
+  background-color: transparent;
+}
+
+.logo-text {
+  color: #1a400a;
+}
+
+.logo {
+  font-size: 60px;
+  margin: 0;
+}
+
+.mobile-navbar {
+  height: 95vh;
+}
